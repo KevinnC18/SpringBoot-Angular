@@ -1,0 +1,22 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+button {
+    margin-inline: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: large;
+}
+
+[routerLink="/products/new"] {
+    margin-inline: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: red;
+}
+
+mat-toolbar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(148, 0, 0);
+}
