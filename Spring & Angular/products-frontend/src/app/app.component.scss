@@ -6,14 +6,20 @@ button {
     margin-inline: 5px;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    position: relative;
+
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        text-decoration-thickness: 2px;
+    }
+    
 }
 
 [routerLink="/products/new"] {
     margin-inline: 2px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    text-decoration: underline;
-    background-color: red;
 }
 
 mat-toolbar {
